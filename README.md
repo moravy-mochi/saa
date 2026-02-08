@@ -61,6 +61,8 @@ $ ls
 main.c
 ````
 
+For more practical examples of how the agent thinks and acts, check out the recorded session logs in [examples/simple/.saa/session/](examples/simple/.saa/session/).
+
 ## Usage
 
 ### Initialize a project
@@ -99,6 +101,8 @@ True Unix users sandbox themselves.
 Use bubblewrap, Docker, or whatever you prefer.
 It's annoying to have bubblewrap calls built-in if you're already running inside Docker, right?
 Use the project root returned by `saa where` as an argument for bubblewrap.
+
+Check out [examples/simple/saa-wrapper](examples/simple/saa-wrapper) for a concrete example using bubblewrap.
 
 ### Typing commands every time is a pain.
 
