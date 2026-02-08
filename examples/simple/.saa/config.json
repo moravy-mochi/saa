@@ -1,0 +1,7 @@
+{
+    "api_url": "http://localhost:8080/v1",
+    "model": "GLM-4.7-Flash-UD-Q4",
+    "max_stdout": 1000,
+    "max_stderr": 1000,
+    "show_tool_call": true
+}
